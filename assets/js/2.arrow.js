@@ -1,6 +1,6 @@
-let suma = function (a, b) {
+let sum = function (a, b) {
   return a + b;
 };
 
 // Arrow function
-const suma = (a, b) => a + b;
+const sumA = (a, b) => a + b;
