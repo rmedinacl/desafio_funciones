@@ -7,10 +7,21 @@
 }
 
 body {
-  display: grid;
-  place-items: center;
+  align-items: center;
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
 #azul {
   background-color: blue;
   width: 200px;
@@ -36,4 +47,17 @@ body {
   border: 1px solid black;
   width: 200px;
   height: 200px;
+  margin-top: 10px;
+}
+
+.cuadrado_blank {
+  margin-top: 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.cuadrado_blank p {
+  text-align: center;
+  margin-top: 10px;
 }
