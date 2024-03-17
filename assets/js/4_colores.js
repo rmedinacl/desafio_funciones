@@ -48,5 +48,6 @@ function crearDiv(color) {
   nuevoDiv.style.backgroundColor = color;
   nuevoDiv.style.width = "200px";
   nuevoDiv.style.height = "200px";
+  nuevoDiv.style.margin = "10px auto";
   document.body.appendChild(nuevoDiv);
 }
